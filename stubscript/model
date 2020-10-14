@@ -23,9 +23,9 @@
         anim.Image = append(anim.Image, img)
     }
     const (
-        AbsoluteZeroC Celsius = -273.15 // 绝对零度
-        FreezingC     Celsius = 0       // 结冰点温度
-        BoilingC      Celsius = 100     // 沸水温度
+        AbsoluteZeroC Celsius = -273.15
+        FreezingC     Celsius = 0       
+        BoilingC      Celsius = 100   
     )
 
     func CToF(c Celsius) Fahrenheit { return Fahrenheit(c*9/5 + 32) }
